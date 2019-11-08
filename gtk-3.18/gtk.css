@@ -12,7 +12,7 @@ widget base background color */
 @define-color theme_bg_color #100b16;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color #232629;
+@define-color theme_base_color #100b16;
 /*
 base background color of selections */
 @define-color theme_selected_bg_color #9966cc;
@@ -39,7 +39,7 @@ widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #100b16;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #232629;
+@define-color theme_unfocused_base_color #100b16;
 /*
 base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color rgba(153, 102, 204, 0.5);
@@ -60,7 +60,7 @@ these are pretty self explicative */
 @define-color warning_color #f67400;
 @define-color error_color #da4453;
 @define-color success_color #27ae60;
-@define-color content_view_bg #232629;
+@define-color content_view_bg #100b16;
 * {
   padding: 0;
   -GtkToolButton-icon-spacing: 4;
@@ -127,10 +127,10 @@ these are pretty self explicative */
 
 .view {
   color: #a1b4ba;
-  background-color: #232629; }
+  background-color: #100b16; }
   .view:backdrop {
     color: #a1b4ba;
-    background-color: #232629; }
+    background-color: #100b16; }
   .view:selected {
     border-radius: 3px; }
   .view:insensitive {
@@ -209,7 +209,7 @@ GtkTextView {
   color: #a1b4ba; }
   .view:backdrop:selected, .label:backdrop:selected, .grid-child:backdrop:selected, .entry:backdrop:selected, .list-row:backdrop:selected, .sidebar:backdrop:selected, GtkPlacesSidebar.sidebar .view:backdrop:selected {
     background-color: rgba(153, 102, 204, 0.5);
-    color: #232629; }
+    color: #100b16; }
 
 /***********
  * Buttons *
@@ -681,7 +681,7 @@ GtkComboBox {
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   color: #a1b4ba;
   border-color: #221830;
-  background-color: #232629;
+  background-color: #100b16;
   box-shadow: none; }
   .entry.image.left {
     padding-left: 0; }
@@ -691,7 +691,7 @@ GtkComboBox {
     padding: 2px;
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629;
+    background-color: #100b16;
     box-shadow: none;
     border: none;
     border-radius: 0; }
@@ -704,7 +704,7 @@ GtkComboBox {
   .entry:backdrop {
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629; }
+    background-color: #100b16; }
   .entry:backdrop:insensitive {
     color: rgba(161, 180, 186, 0.35);
     border-color: rgba(31, 21, 43, 0.35);
@@ -819,7 +819,7 @@ GtkComboBox {
 GtkCalendar {
   color: #a1b4ba;
   border: 1px solid #221830;
-  background-color: #232629; }
+  background-color: #100b16; }
   GtkCalendar:selected {
     background-color: #221830; }
   GtkCalendar:insensitive {
@@ -848,7 +848,7 @@ GtkCalendar {
   GtkCalendar:backdrop {
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629; }
+    background-color: #100b16; }
 
 /*************************
  * Check and Radio items *
@@ -2830,7 +2830,7 @@ GtkTreeView.view {
       GtkTreeView.view.expander:checked:selected {
         color: #a1b4ba; }
       GtkTreeView.view.expander:checked:backdrop {
-        color: #232629; }
+        color: #100b16; }
     GtkTreeView.view.expander:backdrop {
       color: #a1b4ba; }
 
