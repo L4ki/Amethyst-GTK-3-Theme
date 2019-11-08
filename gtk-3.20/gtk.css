@@ -12,7 +12,7 @@ widget base background color */
 @define-color theme_bg_color #100b16;
 /*
 text widgets and the like base background color */
-@define-color theme_base_color #232629;
+@define-color theme_base_color #100b16;
 /*
 base background color of selections */
 @define-color theme_selected_bg_color #9966cc;
@@ -39,7 +39,7 @@ widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #100b16;
 /*
 text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #232629;
+@define-color theme_unfocused_base_color #100b16;
 /*
 base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color rgba(153, 102, 204, 0.5);
@@ -60,7 +60,7 @@ these are pretty self explicative */
 @define-color warning_color #f67400;
 @define-color error_color #da4453;
 @define-color success_color #27ae60;
-@define-color content_view_bg #232629;
+@define-color content_view_bg #100b16;
 * {
   padding: 0;
   -GtkToolButton-icon-spacing: 4;
@@ -117,12 +117,12 @@ these are pretty self explicative */
 textview text,
 .view {
   color: #a1b4ba;
-  background-color: #232629; }
+  background-color: #100b16; }
   .view text:backdrop,
   textview text:backdrop,
   .view:backdrop {
     color: #a1b4ba;
-    background-color: #232629; }
+    background-color: #100b16; }
   .view text:disabled,
   textview text:disabled,
   .view:disabled {
@@ -135,11 +135,11 @@ textview text,
     border-radius: 3px; }
 
 textview border {
-  background-color: #232629;
+  background-color: #100b16;
   background-image: image(#221830);
   background-repeat: no-repeat; }
   textview border:backdrop {
-    background-color: #232629; }
+    background-color: #100b16; }
   textview border.bottom {
     background-size: 100% 1px;
     background-position: top; }
@@ -250,7 +250,7 @@ entry selection, row:selected, .sidebar:selected {
   textview text selection:backdrop, flowbox flowboxchild:backdrop:selected, label:backdrop selction, spinbutton:not(.vertical) selection:backdrop:focus, spinbutton:not(.vertical) selection:backdrop,
   entry selection:backdrop, row:backdrop:selected, .sidebar:backdrop:selected {
     background-color: rgba(153, 102, 204, 0.5);
-    color: #232629; }
+    color: #100b16; }
 
 .view text:selected,
 textview text:selected,
@@ -1492,7 +1492,7 @@ entry {
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   color: #a1b4ba;
   border-color: #221830;
-  background-color: #232629;
+  background-color: #100b16;
   box-shadow: none; }
   spinbutton:not(.vertical) image.left,
   entry image.left {
@@ -1509,7 +1509,7 @@ entry {
     padding: 2px;
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629;
+    background-color: #100b16;
     box-shadow: none; }
   spinbutton:focus:not(.vertical),
   entry:focus {
@@ -1523,7 +1523,7 @@ entry {
   entry:backdrop {
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629; }
+    background-color: #100b16; }
   spinbutton:backdrop:disabled:not(.vertical),
   entry:backdrop:disabled {
     color: rgba(161, 180, 186, 0.35);
@@ -1599,7 +1599,7 @@ treeview acceleditor > label {
 treeview entry.flat, treeview entry {
   border-radius: 0;
   background-image: none;
-  background-color: #232629; }
+  background-color: #100b16; }
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #9966cc; }
 
@@ -1669,7 +1669,7 @@ treeview entry.flat, treeview entry {
 calendar {
   color: #a1b4ba;
   border: 1px solid #221830;
-  background-color: #232629; }
+  background-color: #100b16; }
   calendar:selected {
     background-color: #221830; }
   calendar:disabled {
@@ -1698,7 +1698,7 @@ calendar {
   calendar:backdrop {
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629; }
+    background-color: #100b16; }
 
 /*************************
  * Check and Radio items *
@@ -3212,12 +3212,12 @@ levelbar trough {
   border-radius: 3px;
   color: #a1b4ba;
   border-color: #221830;
-  background-color: #232629;
+  background-color: #100b16;
   box-shadow: none; }
   levelbar trough:backdrop {
     color: #a1b4ba;
     border-color: #221830;
-    background-color: #232629; }
+    background-color: #100b16; }
 
 levelbar.horizontal.discrete block {
   margin: 0 1px; }
@@ -3573,7 +3573,7 @@ spinbutton.vertical button {
   padding: 0;
   box-shadow: none;
   background-image: none;
-  background-color: #232629;
+  background-color: #100b16;
   color: #a1b4ba;
   border-color: #221830; }
   spinbutton.vertical button:hover {
@@ -3778,9 +3778,9 @@ treeview.view {
       treeview.view.expander:checked:selected {
         color: #a1b4ba; }
       treeview.view.expander:checked:backdrop {
-        color: #232629; }
+        color: #100b16; }
     treeview.view.expander:backdrop {
-      color: #232629; }
+      color: #100b16; }
   treeview.view header button {
     color: #a1b4ba;
     background-color: #100b16;
