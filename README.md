@@ -10,3 +10,9 @@ Changelog: 08.11.2019.
 ---------------------
 
 Gtk.css correction
+
+
+Changelog:11.03.2021.
+---------------------
+
+Redesigned theme
